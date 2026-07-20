@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b1b1b;
+    line-height: 1.2;
+    font-family:monospace
+}
+a{
+  text-decoration: none;  
+}
+.cards-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 22px 50px 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    position: relative;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 30px;
+    border: 1px solid #1e175f;
+    border-radius: 10px;
+    position:relative;
+}
+img{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
